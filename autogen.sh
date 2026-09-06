@@ -17,5 +17,6 @@ jq ".version=\"$V\"" package.json > p
 mv p package.json
 vim make.bat
 vim configure.bat
+vim .github/workflows/ci.yml
 # mkdir -p node_modules
 # npm i
